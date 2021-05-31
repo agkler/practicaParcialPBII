@@ -9,7 +9,7 @@ public class Corredor extends Deportista implements ICorredor{
 
 	public Corredor(Integer numeroDeSocio, String nombre, Integer distanciaPreferida) {
 		super(numeroDeSocio, nombre);
-		this.setDistanciaPreferida(distanciaPreferida);
+		this.distanciaPreferida= distanciaPreferida;
 		cantidadDeKilometrosEntrenados= 0;
 		
 	}
